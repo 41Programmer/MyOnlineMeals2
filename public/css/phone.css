@@ -1,0 +1,66 @@
+/* HERE STARTS NAVBAR SECTION  */
+#navbar{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#navbar ul li{
+    padding: 7px;
+
+}
+
+/* HERE STARTS HOME SECTION  */
+#home h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9rem;
+}
+
+#homeitems{
+    text-align: center;
+}
+
+#homeitems p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* HERE STARTS SERVICES SECTION  */
+#services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.services-items{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: 9px 0;
+}
+
+/* HERE STARTS CLIENT SECTION  */
+#client {
+    height: auto;
+}
+
+#client-items {
+    display: flex;
+    flex-wrap: wrap
+}
+
+#client::before {
+    height: 100%;
+}
+
+/* HERE STARTS CONTACT SECTION  */
+#contact-items input{
+    width: 100%;
+}
+
+#contact-items textarea{
+    width: 100%;
+}
